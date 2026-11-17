@@ -1,0 +1,126 @@
+/*
+ * Design tokens taken from the Figma prototype
+ * "PLRA Enterprise GIS | Green Parcel" (light + dark frames).
+ * Frames are 1440 wide; sizes below are in CSS px at that width.
+ */
+:root {
+  color-scheme: light;
+
+  --font-sans: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+
+  /* Surfaces */
+  --bg: #eef2f6;
+  --surface: #ffffff;
+  --surface-muted: #f4f6f9;
+  --surface-sunken: #eceff3;
+  --border: #dde3ea;
+  --border-strong: #c9d1db;
+
+  /* Text */
+  --text: #14213d;
+  --text-body: #1f2a37;
+  --text-muted: #5b6675;
+  --text-faint: #8a94a3;
+
+  /* Brand */
+  --primary: #3b7a40;
+  --primary-hover: #30683a;
+  --primary-ink: #ffffff;
+  --primary-soft: #e6f2e8;
+  --focus-ring: rgba(59, 122, 64, 0.35);
+
+  /* Chrome */
+  --header-bg: #ffffff;
+  --header-border: #e3e8ee;
+  --sidebar-bg: #13233a;
+  --sidebar-text: #e7edf5;
+  --sidebar-muted: #9fb0c5;
+  --sidebar-hover: rgba(255, 255, 255, 0.06);
+  --sidebar-active: #3b7a40;
+  --footer-bg: #ffffff;
+  --table-head-bg: #2d5e3a;
+  --table-head-ink: #ffffff;
+  --row-highlight: #eaf4ec;
+  --badge-dark: #13233a;
+
+  /* Tones: info (blue), warn (amber), ok (green), danger (red), neutral */
+  --info-bg: #e3edf9;
+  --info-ink: #1f4f8f;
+  --info-accent: #8fb0dc;
+  --warn-bg: #f7ecd8;
+  --warn-ink: #8a5a12;
+  --warn-accent: #d9b26e;
+  --ok-bg: #e2f1e5;
+  --ok-ink: #2e6b36;
+  --ok-accent: #8fc49a;
+  --danger-bg: #f9e1e1;
+  --danger-ink: #9b2c2c;
+  --danger-accent: #e2a4a4;
+  --neutral-bg: #e8ebf0;
+  --neutral-ink: #3c4655;
+  --neutral-accent: #b9c2ce;
+
+  --radius-sm: 6px;
+  --radius: 10px;
+  --radius-lg: 14px;
+  --shadow-card: 0 1px 2px rgba(20, 33, 61, 0.04);
+  --shadow-pop: 0 10px 30px rgba(20, 33, 61, 0.18);
+
+  --header-h: 72px;
+  --sidebar-w: 272px;
+  --footer-h: 80px;
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+
+  --bg: #2b2d31;
+  --surface: #34373c;
+  --surface-muted: #3a3d42;
+  --surface-sunken: #2f3236;
+  --border: #474b51;
+  --border-strong: #565b62;
+
+  --text: #f2f4f6;
+  --text-body: #e4e7eb;
+  --text-muted: #aab1ba;
+  --text-faint: #858d97;
+
+  --primary: #4d8069;
+  --primary-hover: #5a9078;
+  --primary-ink: #ffffff;
+  --primary-soft: #34463d;
+  --focus-ring: rgba(122, 186, 156, 0.4);
+
+  --header-bg: #2b2d31;
+  --header-border: #3b3e43;
+  --sidebar-bg: #2b2d31;
+  --sidebar-text: #e7eaee;
+  --sidebar-muted: #9aa2ac;
+  --sidebar-hover: rgba(255, 255, 255, 0.05);
+  --sidebar-active: #4d8069;
+  --footer-bg: #383b40;
+  --table-head-bg: #3a3d42;
+  --table-head-ink: #f2f4f6;
+  --row-highlight: #34403a;
+  --badge-dark: #1d2a3d;
+
+  --info-bg: #3c4b5f;
+  --info-ink: #dce8f7;
+  --info-accent: #6f8fb8;
+  --warn-bg: #4d4632;
+  --warn-ink: #f3e3c0;
+  --warn-accent: #a78a4c;
+  --ok-bg: #3b4d42;
+  --ok-ink: #d6efdc;
+  --ok-accent: #6f9d7c;
+  --danger-bg: #553a3c;
+  --danger-ink: #f6d4d4;
+  --danger-accent: #a46a6c;
+  --neutral-bg: #43474d;
+  --neutral-ink: #dde1e6;
+  --neutral-accent: #6c727a;
+
+  --shadow-card: none;
+  --shadow-pop: 0 10px 30px rgba(0, 0, 0, 0.45);
+}

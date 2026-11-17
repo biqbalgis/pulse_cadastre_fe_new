@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 525 900" preserveAspectRatio="xMidYMid slice">
+  <!-- Stylised aerial view of field parcels (stand-in for the Figma aerial photo). -->
+  <defs>
+    <pattern id="rows-a" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(-28)">
+      <rect width="8" height="8" fill="#6f8f3a"/>
+      <rect width="8" height="3" fill="#5d7d2f"/>
+    </pattern>
+    <pattern id="rows-b" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(62)">
+      <rect width="7" height="7" fill="#c9a764"/>
+      <rect width="7" height="2.5" fill="#b8944f"/>
+    </pattern>
+    <pattern id="rows-c" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(-28)">
+      <rect width="6" height="6" fill="#3f6e2c"/>
+      <rect width="6" height="2" fill="#355f25"/>
+    </pattern>
+    <pattern id="rows-d" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(62)">
+      <rect width="9" height="9" fill="#8fa64a"/>
+      <rect width="9" height="3" fill="#7e9640"/>
+    </pattern>
+    <pattern id="rows-e" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(-28)">
+      <rect width="7" height="7" fill="#a98a4e"/>
+      <rect width="7" height="2" fill="#957844"/>
+    </pattern>
+    <radialGradient id="tree" cx="50%" cy="45%" r="55%">
+      <stop offset="0" stop-color="#4f7d33"/>
+      <stop offset="1" stop-color="#284d1c"/>
+    </radialGradient>
+  </defs>
+  <rect width="525" height="900" fill="#55762f"/>
+  <g transform="rotate(-28 262 450)" stroke="#e9e3c9" stroke-width="3" stroke-opacity="0.8">
+    <rect x="-180" y="-120" width="250" height="210" fill="url(#rows-a)"/>
+    <rect x="70" y="-120" width="210" height="210" fill="url(#rows-b)"/>
+    <rect x="280" y="-120" width="300" height="210" fill="url(#rows-c)"/>
+    <rect x="-180" y="90" width="190" height="230" fill="url(#rows-d)"/>
+    <rect x="10" y="90" width="260" height="230" fill="url(#rows-c)"/>
+    <rect x="270" y="90" width="170" height="230" fill="url(#rows-e)"/>
+    <rect x="440" y="90" width="200" height="230" fill="url(#rows-a)"/>
+    <rect x="-180" y="320" width="300" height="200" fill="url(#rows-b)"/>
+    <rect x="120" y="320" width="200" height="200" fill="url(#rows-a)"/>
+    <rect x="320" y="320" width="320" height="200" fill="url(#rows-d)"/>
+    <rect x="-180" y="520" width="210" height="240" fill="url(#rows-c)"/>
+    <rect x="30" y="520" width="240" height="240" fill="url(#rows-e)"/>
+    <rect x="270" y="520" width="190" height="240" fill="url(#rows-c)"/>
+    <rect x="460" y="520" width="180" height="240" fill="url(#rows-b)"/>
+    <rect x="-180" y="760" width="260" height="260" fill="url(#rows-a)"/>
+    <rect x="80" y="760" width="230" height="260" fill="url(#rows-d)"/>
+    <rect x="310" y="760" width="330" height="260" fill="url(#rows-c)"/>
+  </g>
+  <path d="M120 940 C 210 760, 260 620, 330 470 S 470 170, 560 -20" fill="none" stroke="#d9cfae" stroke-width="10" stroke-linecap="round"/>
+  <path d="M120 940 C 210 760, 260 620, 330 470 S 470 170, 560 -20" fill="none" stroke="#bfb38f" stroke-width="2" stroke-dasharray="1 9"/>
+  <g fill="url(#tree)">
+    <circle cx="70" cy="70" r="22"/><circle cx="104" cy="58" r="16"/><circle cx="420" cy="120" r="24"/>
+    <circle cx="448" cy="146" r="16"/><circle cx="300" cy="300" r="18"/><circle cx="210" cy="430" r="22"/>
+    <circle cx="470" cy="420" r="20"/><circle cx="96" cy="560" r="24"/><circle cx="360" cy="610" r="18"/>
+    <circle cx="250" cy="760" r="22"/><circle cx="470" cy="800" r="26"/><circle cx="60" cy="860" r="18"/>
+  </g>
+</svg>
